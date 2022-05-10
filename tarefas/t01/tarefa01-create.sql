@@ -13,7 +13,7 @@ CREATE TABLE funcionario(
 CREATE TABLE departamento(
   codigo int not NULL, 
   descricao VARCHAR(200), 
-  cod_gerente int not NULL,
+  cod_gerente int,
   
   PRIMARY KEY(codigo),
   FOREIGN KEy(cod_gerente) REFERENCES funcionario(codigo)
