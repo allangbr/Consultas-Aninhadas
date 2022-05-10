@@ -1,4 +1,3 @@
-# Questão 02
 CREATE VIEW oldest (dtNasc)
 AS SELECT MIN(dt_nasc) 
 FROM funcionario;
