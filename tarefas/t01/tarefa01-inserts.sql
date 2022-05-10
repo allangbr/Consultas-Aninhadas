@@ -30,3 +30,15 @@ INSERT INTO projeto (codigo, nome, descricao, cod_depto, cod_responsavel, data_i
 VALUES (4, 'Programando Sistemas de Software', 'Projeto para ensinar como fazer o desenvolvimento de um software', 4, 4, '2022/08/04', '2022/08/11')
 INSERT INTO projeto (codigo, nome, descricao, cod_depto, cod_responsavel, data_inicio, data_fim) 
 VALUES (5, 'Gerenciando os Processos de Software', 'Projeto para ensinar como fazer o gerenciamento dos processos de desenvolvimento de um software', 5, 5, '2022/09/05', '2022/09/12')
+
+# Inserts Tabela Atividade
+INSERT INTO atividade(codigo, nome, descricao, cod_responsavel, data_inicio, data_fim)
+VALUES(1, 'Analisar a documentação do Sistema', 'Analisar os User Story', 1, '2022-05-02', '2022-05-09')
+INSERT INTO atividade(codigo, nome, descricao, cod_responsavel, data_inicio, data_fim)
+VALUES(2, 'Gerenciar o desenvolvimento do Sistema', 'Definir stack tecnológica que será utilizada', 2, '2022-06-03', '2022-06-10')
+INSERT INTO atividade(codigo, nome, descricao, cod_responsavel, data_inicio, data_fim)
+VALUES(3, 'Gerenciar a Manutenção de Dados do Sistema', 'Definir quais dados devem ser privados de acesso', 3, '2022-07-04', '2022-07-11')
+INSERT INTO atividade(codigo, nome, descricao, cod_responsavel, data_inicio, data_fim)
+VALUES(4, 'Desenvolvendo o Sistema', 'Definir a função de cada desenvolvedor', 4, '2022-08-05', '2022-08-12')
+INSERT INTO atividade(codigo, nome, descricao, cod_responsavel, data_inicio, data_fim)
+VALUES(5, 'Defininido os Processos', 'Definir como irá ocorrer as etapas do desenvolvimento', 5, '2022-09-06', '2022-09-13')
