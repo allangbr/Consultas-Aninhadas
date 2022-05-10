@@ -42,3 +42,10 @@ INSERT INTO atividade(codigo, nome, descricao, cod_responsavel, data_inicio, dat
 VALUES(4, 'Desenvolvendo o Sistema', 'Definir a função de cada desenvolvedor', 4, '2022-08-05', '2022-08-12')
 INSERT INTO atividade(codigo, nome, descricao, cod_responsavel, data_inicio, data_fim)
 VALUES(5, 'Defininido os Processos', 'Definir como irá ocorrer as etapas do desenvolvimento', 5, '2022-09-06', '2022-09-13')
+
+# Inserts Tabela Atividade_Projeto
+INSERT INTO atividade_projeto(cod_projeto, cod_atividade) VALUES(1, 1)
+INSERT INTO atividade_projeto(cod_projeto, cod_atividade) VALUES(2, 2)
+INSERT INTO atividade_projeto(cod_projeto, cod_atividade) VALUES(3, 3)
+INSERT INTO atividade_projeto(cod_projeto, cod_atividade) VALUES(4, 4)
+INSERT INTO atividade_projeto(cod_projeto, cod_atividade) VALUES(5, 5)
