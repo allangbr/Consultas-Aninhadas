@@ -20,7 +20,7 @@ CREATE TABLE departamento(
 )
 
 #Adicionando a chave estrangeira do departamento na tabela funcionário
-ALTER TABLE funcionario ADD COLUMN cod_depto
+ALTER TABLE funcionario ADD COLUMN cod_depto INT
 Alter TABLE funcionario ADD FOREIGN KEY(cod_depto) REFERENCES departamento(codigo) 
 
 #Table Projeto
