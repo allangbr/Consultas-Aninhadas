@@ -1,7 +1,7 @@
 #Tabela cliente (codigo, nome, endereco)
 
 CREATE TABLE cliente (
-  codigo SERIAL,
+  codigo INT AUTO_INCREMENT,
   nome VARCHAR(255),
   endereco VARCHAR(255),
   
@@ -11,7 +11,7 @@ CREATE TABLE cliente (
 #Tabela piloto (codigo, nome, num_voos)
 
 CREATE TABLE piloto(
-   codigo SERIAL,
+   codigo INT AUTO_INCREMENT,
    nome VARCHAR(255),
    num_voos INT,
    
@@ -21,7 +21,7 @@ CREATE TABLE piloto(
 #Tabela voo (codigo, tipo, piloto, num_passageiros, distancia)
 
 CREATE TABLE voo(
-  codigo SERIAL,
+  codigo INT AUTO_INCREMENT,
   tipo VARCHAR(255),
   codigo_piloto INT,
   num_passageiros INT,
