@@ -1,4 +1,7 @@
-const Sequelize = require('sequelize');
-const sequelize = new Sequelize('postgres://postgres:postgres@localhost:5432/postgres', {dialect: 'postgres'});
+const Sequelize = require('sequelize')
+const sequelize = new Sequelize('postgres', 'postgres', 'postgres', {
+  dialect: 'postgres',
+  host: 'localhost'
+})
 
-module.exports = sequelize;
+module.exports = sequelize
