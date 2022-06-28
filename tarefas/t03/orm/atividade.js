@@ -27,7 +27,10 @@ Atividade.init(
     dataInicio: Sequelize.DATEONLY,
     dataFim: Sequelize.DATEONLY,
   },
-  { sequelize }
+  { 
+    sequelize,
+    timestamps: false,
+  }
 )
 
 module.exports = Atividade

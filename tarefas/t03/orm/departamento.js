@@ -26,7 +26,10 @@ Departamento.init(
       }
     }
   },
-  { sequelize }
+  { 
+    sequelize,
+    timestamps: false,
+  }
 )
 
 module.exports = Departamento

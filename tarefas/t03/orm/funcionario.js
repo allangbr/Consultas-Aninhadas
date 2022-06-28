@@ -36,7 +36,10 @@ Funcionario.init(
       }
     }
   },
-  { sequelize }
+  { 
+    sequelize,
+    timestamps: false,
+  }
 )
 
 module.exports = Funcionario
